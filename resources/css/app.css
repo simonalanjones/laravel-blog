@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@plugin "@tailwindcss/typography";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
+@layer components {
+    .prose-article {
+        @apply prose prose-lg md:prose-xl
+        prose-headings:font-medium prose-headings:tracking-tight
+        prose-p:leading-8
+        prose-ul:my-5 prose-ol:my-5
+        prose-ul:pl-6 prose-ol:pl-6
+        prose-li:my-1
+        prose-ul:marker:text-gray-400
+        prose-hr:my-12 prose-hr:border-0 prose-hr:h-px
+        prose-hr:bg-gradient-to-r prose-hr:from-transparent prose-hr:via-gray-200 prose-hr:to-transparent
+        prose-pre:text-[15px]
+        prose-code:text-[0.95em];
+    }
+}
+
+
+@layer base {
+    :root {
+        font-family: var(--font-serif);
+        font-weight: 400;
+    }
+}
+
+@layer utilities {
+    .bg-soft-blobs {
+        background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 800' opacity='0.9'>\
+<defs>\
+<filter id='f' x='-200%25' y='-200%25' width='500%25' height='500%25'>\
+<feGaussianBlur stdDeviation='120'/>\
+</filter>\
+</defs>\
+<g filter='url(%23f)'>\
+<ellipse rx='260' ry='260' cx='300' cy='500' fill='hsl(330,40%25,94%25)'/>\
+<ellipse rx='260' ry='260' cx='480' cy='260' fill='hsl(210,45%25,95%25)'/>\
+</g>\
+</svg>");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

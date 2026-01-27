@@ -12,7 +12,7 @@
         : 'col-span-2 md:col-span-1';
 
     $titleClass = $featured
-        ? 'text-2xl md:text-2xl leading-tight'
+        ? 'text-2xl md:text-3xl leading-tight'
         : 'text-xl md:text-4xl leading-snug';
 
     $summaryClass = $featured

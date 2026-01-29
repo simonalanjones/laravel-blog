@@ -7,23 +7,22 @@
 
     <div class="prose-article">
         <p>I’m Simon, a web developer from Kent, in the south-east of England. I’ve been building things on the web for
-            a long time, working across companies of vastly different sizes and solving the problems that come with
-            each.</p>
+            a long time, working across companies of vastly different sizes but mostly within the insurance industry.</p>
 
-        <p>My primary language is <b>PHP (8.x)</b>, which I use daily. Alongside this, I work with <b>Vue, React, and
-                Node</b>, focused on maintaining, extending, and refactoring back-end business logic for an e-commerce
-            application within a travel company, offering villa holidays in Orlando.</p>
+        <p>
+            Day to day, I work primarily with <b>PHP (8.x)</b>, alongside <b>Vue, React, and Node</b>,
+            maintaining, extending, and refactoring back-end business logic for an e-commerce
+            application within a travel company offering villa holidays in Orlando.
+        </p>
 
-        <p>Like many languages, PHP tends to be used in conjunction with an MVC framework and I've used a good deal of
-            these over the years, but at work I'm using
-            <a href="https://www.slimframework.com/">Slim</a> with a <a href="https://php-di.org/">PHP DI</a> container
-            to keep projects as
-            lightweight and flexible as possible.</p>
-        <p class="mb-12">For day-to-day development, I use <b>Docker</b> for working in a local environment,
+        <p class="mb-12">I use <b>Docker</b> for developing in a local environment,
             <b>Postman</b> for designing and validating the many APIs, and <b>Git</b> for managing versioned changes
-            within the team, with
-            repositories hosted on <b>Bitbucket</b>.</p>
-        <p>My Github:https://github.com/simonalanjones</p>
+            within the team.</p>
+        <ul>
+            <li><a href="https://github.com/simonalanjones" target="_blank">My Github projects</a> </li>
+            <li><a href="https://www.linkedin.com/in/simon-a-jones/" target="_blank">Connect with me on LinkedIn</a> </li>
+        </ul>
+
         <div class="mt-12 text-center text-black/40 text-2xl leading-none">❦</div>
 
     </div>

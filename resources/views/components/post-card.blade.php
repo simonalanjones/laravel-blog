@@ -46,7 +46,15 @@
     <h3 class="mt-2 font-semibold tracking-normal text-balance {{ $titleClass }} text-black/80">
         <a
             href="{{ route('post.show', $post) }}"
-            class="hover:underline decoration-black/15 underline-offset-4"
+            class="
+            text-gray-900
+            no-underline
+            transition-colors
+            hover:text-blue-700
+            hover:underline
+            hover:decoration-blue-700
+            underline-offset-4
+        "
         >
             {{ $post->title }}
         </a>

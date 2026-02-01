@@ -15,11 +15,11 @@
         rel="stylesheet">
 </head>
 
-<body class="min-h-screen flex flex-col bg-white/80 bg-blobs">
-<header class="p-4 pt-8">
+<body class="min-h-screen flex flex-col bg-white/80">
+<header class="pt-8 pb-8 bg-blue-700 text-white shadow-sm">
     <div class="w-full max-w-5xl mx-auto">
         <div class="flex flex-col md:flex-row justify-between w-full items-start md:items-center gap-4">
-            <a class="font-bold text-2xl uppercase text-gray-600" href="/">simon.a.jones</a>
+            <a class="font-bold text-2xl uppercase text-white" href="/">simon.a.jones</a>
 
             <nav class="flex items-center gap-8 text-lg">
                 <a href="/professional-bio" class="hover:underline">Professional Bio</a>
@@ -30,13 +30,13 @@
     </div>
 </header>
 
-<section class="flex-1 px-4 py-10 md:py-24">
+<section class="flex-1 px-4 py-10 md:py-20 bg-blue-50/40">
     <div class="w-full max-w-5xl mx-auto">
         @yield('content')
     </div>
 </section>
 
-<footer class="p-4 pb-8">
+<footer class="p-4 pb-8 bg-blue-50/40">
     <div class="w-full max-w-5xl mx-auto">
         <div class="flex gap-4 justify-between items-center">
             <small>Copyright © {{ now()->year }}. Coding, theme, and words by Simon Jones</small>
